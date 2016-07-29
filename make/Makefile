@@ -81,5 +81,5 @@ $(OBJ_DIR)/%.o: $(TEST_DIR)/%.cpp $(GTEST_HEADERS)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(INCS) -o $@ -c $<
 
 clean:
-rm -f $(TARGET) $(TEST_TARGET) $(OBJS) $(TEST_OBJS)
+	rm -f $(TARGET) $(TEST_TARGET) $(OBJS) $(TEST_OBJS)
 
