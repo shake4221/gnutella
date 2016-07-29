@@ -1,6 +1,6 @@
 dependencies:
     pre:
-        - cd extsrc/googletest/;
+        - cd extsrc/googletest/googletest/;
         - mkdir build;
         - cd build;
         - cmake ..;
