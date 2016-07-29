@@ -2,10 +2,10 @@ dependencies:
     pre:
         - cd extsrc/googletest/googletest/; mkdir build; cd build; cmake ..; make
     override:
-        - cd make; make; make test
+        - mkdir build; cd build; cmake ..; make; make test
 test:
     override:
-        - cd bin; ./gtest_myint
+        - cd build; ctest --verbose
 checkout:
     post:
         - git submodule init
