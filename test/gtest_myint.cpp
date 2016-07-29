@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "myint.h"
+#include "../src/myint.h"
 
 namespace {
 
