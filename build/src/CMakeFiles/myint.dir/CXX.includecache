@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yasu/Program/gnutella/gnutella/src/myint.cpp
+myint.h
+/Users/yasu/Program/gnutella/gnutella/src/myint.h
+
+/Users/yasu/Program/gnutella/gnutella/src/myint.h
+

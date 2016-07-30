@@ -1,0 +1,2 @@
+/Users/yasu/Program/gnutella/gnutella/build/test/CMakeFiles/Test.dir
+/Users/yasu/Program/gnutella/gnutella/build/src/CMakeFiles/myint.dir
