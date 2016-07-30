@@ -1,2 +1,0 @@
-/usr/bin/ar cq libmyint.a  CMakeFiles/myint.dir/myint.cpp.o
-/usr/bin/ranlib libmyint.a

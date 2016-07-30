@@ -1,1 +1,0 @@
-/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Test.dir/gtest_myint.cpp.o  -o Test  -L../extsrc/googletest/googletest/build  ../src/libmyint.a -lgtest -lgtest_main -lpthread -Wl,-rpath,../extsrc/googletest/googletest/build 
